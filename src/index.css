@@ -1,0 +1,41 @@
+body{
+  font-family: Inter;
+}
+
+/* Nav Bar */
+
+.navContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  border-bottom: 1.5px solid lightgray;
+}
+
+.searchContainer{
+  font-size: 12px;
+  border: 1px solid #C0C4CC;
+  border-radius: 2px;
+  color: #898E9A;;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  letter-spacing: -0.01em;
+  padding:10px 5px 10px 10px;
+}
+
+.Union{
+  margin-right: 8px;
+}
+
+.logo{
+  width: 130px;
+  height: auto;
+}
+
+.searchInput{
+  border: none;
+}

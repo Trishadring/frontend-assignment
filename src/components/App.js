@@ -1,7 +1,11 @@
-import logo from '../images/logo.svg';
+import NavBar from "./navbar/navbar"
 
-const App = () => (
-	<img src={logo} alt="Timescale" />
-)
+const App = () => {
+	return(
+		<div>
+      <NavBar/>
+		</div>
+	)
+}
 
 export default App;
