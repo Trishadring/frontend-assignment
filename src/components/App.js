@@ -1,5 +1,4 @@
 import NavBar from "./navbar/navbar";
-import TMDB from "../services/TMDB"
 import Movies from "./movies/movies";
 
 
@@ -9,7 +8,7 @@ const App = () => {
 
 
 	return(
-		<div>
+		<div className="Body">
       <NavBar/>
       <Movies />
 		</div>

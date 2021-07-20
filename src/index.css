@@ -2,6 +2,12 @@ body{
   font-family: Inter;
 }
 
+.Body{
+  max-width:1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* Nav Bar */
 
 .navContainer{
@@ -10,8 +16,6 @@ body{
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 15px;
-  padding-right: 80px;
   border-bottom: 1.5px solid lightgray;
 }
 
