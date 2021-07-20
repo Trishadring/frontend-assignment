@@ -5,9 +5,11 @@ const MovieRow = ({film}) => {
   return(
   <div class="contain" >
     <img className='movieImg' src={posterUrl} alt='img' />
+    <div className="score">
+      <div className="rating">{film.vote_average}</div>
+    </div>
     <div className="movieTitles">
       <p className="Title">{film.title}</p>
-      {/* <p className="score">{film.vote_average}</p> */}
     </div>
   </div>
   )

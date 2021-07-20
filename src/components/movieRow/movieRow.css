@@ -26,6 +26,25 @@
   margin-top:10px;
 }
 
+.score{
+  background-color:white;
+  position: absolute;
+  top: 21px;
+  left:13px;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+}
+
+.rating{
+  font-weight: 600;
+  font-size: 12px;
+  padding-top: 9px;
+  width: 100%;
+  text-align: center;
+ 
+}
 .movieTitles{
   background-color:white;
   position: absolute;
